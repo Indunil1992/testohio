@@ -1,0 +1,75 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "780d7f7f-7436-4283-b14b-4678a871d1be": {
+        "id": "780d7f7f-7436-4283-b14b-4678a871d1be",
+        "parent": null,
+        "name": "testohio",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "91faa8a5-a5f8-48b9-a273-100cde7cc49a"
+        ],
+        "isRemovable": false,
+        "filePath": "testohio"
+      },
+      "91faa8a5-a5f8-48b9-a273-100cde7cc49a": {
+        "id": "91faa8a5-a5f8-48b9-a273-100cde7cc49a",
+        "parent": "780d7f7f-7436-4283-b14b-4678a871d1be",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testohio/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 90,
+          "memory": 256,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "780d7f7f-7436-4283-b14b-4678a871d1be",
+    "openFiles": [
+      "91faa8a5-a5f8-48b9-a273-100cde7cc49a"
+    ],
+    "currentFileId": "91faa8a5-a5f8-48b9-a273-100cde7cc49a",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testohio",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579678828462
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testohio",
+      "url": "https://github.com/Indunil1992/testohio"
+    }
+  }
+}
