@@ -29,7 +29,16 @@
           "memory": 256,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "64ff8845-4c78-428d-b1ae-574a14773b85": {
+            "id": "64ff8845-4c78-428d-b1ae-574a14773b85",
+            "name": "Test event",
+            "functionId": "91faa8a5-a5f8-48b9-a273-100cde7cc49a",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "rootNode": "780d7f7f-7436-4283-b14b-4678a871d1be",
@@ -63,7 +72,7 @@
     "projectRegion": "us-east-2",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1579678828462
+    "lastSave": 1579678973162
   },
   "VCS_STATE": {
     "provider": "GitHub",
